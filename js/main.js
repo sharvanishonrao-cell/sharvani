@@ -18,7 +18,7 @@
     if (e.key === 'Escape') { setOpen(false); btn.focus(); }
   });
   window.addEventListener('resize', function () {
-    if (window.innerWidth > 1080) setOpen(false);
+    if (window.innerWidth > 960) setOpen(false);
   });
 
   // Landing on a page with #contact in the URL: make sure the section is revealed below the fixed header
