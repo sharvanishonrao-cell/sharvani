@@ -105,6 +105,27 @@ p,h1,h2,h3{margin:0}
 @media (max-width:1100px){.cards-sq{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media (max-width:767px){.cards-sq{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 16px;padding-bottom:48px}}
 
+/* ---------- Experience (Experience page + Home strip) ---------- */
+.exp-intro{padding:0 var(--pad) 40px;max-width:880px;font-weight:300;font-size:clamp(1.125rem,1.6vw,1.5rem);line-height:1.5}
+.exp-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;padding:40px var(--pad) 72px;border-top:1px solid var(--line)}
+.exp-card{display:flex;flex-direction:column;gap:10px}
+.exp-card .thumb{aspect-ratio:4/3;border-radius:6px;overflow:hidden;background:var(--soft)}
+.exp-card .thumb img{width:100%;height:100%;object-fit:cover;transition:opacity .25s,transform .4s}
+.exp-card:hover .thumb img{opacity:.9;transform:scale(1.015)}
+.exp-card .when{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--mute);margin-top:6px}
+.exp-card h3{font-weight:500;font-size:clamp(1.125rem,1.53vw,1.375rem);line-height:1.2}
+.exp-card .org{font-size:15px;line-height:1.35}
+.exp-card .desc{font-weight:300;font-size:14px;line-height:1.5;color:var(--mute)}
+.exp-card .go{font-size:13px;margin-top:4px}
+.exp-card:hover .go{text-decoration:underline}
+.home-exp{border-top:.75px solid var(--line);padding:42px var(--pad) 8px}
+.home-exp .head{display:flex;align-items:baseline;justify-content:space-between;gap:16px;max-width:1207.5px;margin:0 auto}
+.home-exp .head h2{font-weight:500;font-size:clamp(1.5rem,2.5vw,2.25rem);line-height:1.1}
+.home-exp .exp-cards{border-top:0;padding:24px 0 34px;max-width:1207.5px;margin:0 auto}
+.home-exp .exp-card .thumb{aspect-ratio:16/10}
+@media (max-width:900px){.exp-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:600px){.exp-cards{grid-template-columns:1fr;gap:36px}}
+
 /* placeholders (layout only, until content arrives) */
 .thumb-ph{display:flex;align-items:center;justify-content:center;text-align:center;font-size:12px;line-height:1.4;color:#8a8a8a;border:1px dashed #d4d4d4}
 .slides-ph{display:flex;align-items:center;justify-content:center;aspect-ratio:1440/810;margin:0 var(--pad);background:var(--soft);border:1px dashed #d4d4d4;border-radius:4px;color:#8a8a8a;font-size:15px}
@@ -231,8 +252,8 @@ a.lk:hover{color:var(--fg)}
   .about-text{width:100%;flex:none}
   .cards-5{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
 }
-/* ---------- Menu collapses earlier: 5 nav items need the room ---------- */
-@media (max-width:960px){
+/* ---------- Menu collapses earlier: 6 nav items need the room ---------- */
+@media (max-width:1080px){
   .menu-btn{display:block}
   .nav{position:absolute;top:100%;left:0;right:0;flex-direction:column;align-items:flex-start;gap:0;background:#fff;border-bottom:1px solid var(--line);padding:6px var(--pad) 14px;display:none}
   .nav.open{display:flex}
