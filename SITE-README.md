@@ -29,7 +29,7 @@ For maximum sharpness, re-export from Figma at 2x and overwrite the same file na
 | File(s) | Figma frame | Size |
 |---|---|---|
 | images/<project>/part-NN.jpg | the project page frame, cut into pieces about 1700px tall | 1440 wide (1.25x) |
-| images/tiles/tile-1.jpg … tile-8.jpg | Work page > Project card N > Thumbnail (numeral + label + photo) | 145 x 376 (3x) |
+| images/tiles/tile-1.jpg … tile-7.jpg | Work page > Project card N > Thumbnail (numeral + label + photo) | 145 x 376 (3x) |
 | images/common/hero-photo.png | Home > Hero photo (transparent PNG, cutout of you) | about 391 x 656 (2x) |
 | images/common/about-photo.jpg | About photo (uncropped original) | 960 x 1280 |
 | images/common/wordmark.png | Header logo | 124 x 33 (SVG better) |
