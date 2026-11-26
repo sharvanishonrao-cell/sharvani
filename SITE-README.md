@@ -4,7 +4,7 @@ Plain HTML, CSS and a little JavaScript. No frameworks, no build step.
 
 ```
 index.html  industrial-design.html  spatial-design.html  about.html  resume.html  contact.html
-projects/   steva.html sandalwood.html soar.html snehalay.html life-transformation-centre.html indesign-studio.html (spatial, placeholders)
+projects/   steva.html sandalwood.html snehalay.html life-transformation-centre.html indesign-studio.html (spatial, placeholders)
             pratibimb.html bio-mimicry.html cat-the-catch.html aasan.html
 css/styles.css      js/main.js      images/<project>/slide-01.jpg …
 ```

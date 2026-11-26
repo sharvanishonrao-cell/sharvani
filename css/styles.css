@@ -83,7 +83,7 @@ p,h1,h2,h3{margin:0}
 .page-title h1{font-weight:500;font-size:clamp(2.75rem,6.67vw,6rem);line-height:.98;text-transform:uppercase;overflow-wrap:anywhere}
 
 /* ---------- Work ---------- */
-.cards-8{display:grid;grid-template-columns:repeat(8,minmax(0,1fr));gap:24px;padding:24px var(--pad) 72px}
+.cards-8{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:24px;padding:24px var(--pad) 72px}
 .cards-8 .card{gap:12px}
 .cards-8 .thumb{border-radius:4px;aspect-ratio:145/376}
 .cards-8 h3{font-size:14px}
